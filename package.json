@@ -1,0 +1,22 @@
+{
+  "name": "sample_videojs_contrib_hls_webwackify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm-run-all build:*",
+    "build:webpack": "webpack",
+    "build:browserify": "browserify index.js -o bundle-b.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "videojs-contrib-hls": "5.12.3-rc-1",
+    "video.js": "^6.6.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2",
+    "webpack": "^3.10.0"
+  }
+}
